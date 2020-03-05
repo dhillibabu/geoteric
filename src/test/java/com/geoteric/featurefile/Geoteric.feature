@@ -1,4 +1,4 @@
-Feature: Geoteric online Open Inventor Remote View
+Feature: Geoteric online Open Inventor Remote View app
 
 Scenario: Verify that the user can evaluate the siesmic results
 	Given User launch the Inventor remote view application 
