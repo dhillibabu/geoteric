@@ -43,11 +43,6 @@ public class StepDefinitionGeoteric extends BaseClasses {
 	       Assert.assertEquals("Seismic Volume", verifypage);
 	}
 
-	@When("^user clicks spin button in sisemic volume page$")
-	public void user_clicks_spin_button_in_sisemic_volume_page() throws Throwable {
-	       
-	}
-
 	@When("^user rotate the image to (\\d+),(\\d+)$")
 	public void user_rotate_the_image_to(int arg1, int arg2) throws Throwable {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
